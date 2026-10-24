@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+<meta charset="UTF-8">
+<title>JavaScript Básico: Estrutura Básica</title>
+</head>
+
+<script src ="script.js"></script>
+
+<script>
+console.log("legal fera");
+</script>
+
+<style>
+
+  body {
+
+    background-color: #121214;
+
+    color: #e1e1e6;
+
+    max-width: 800px;
+
+    margin: 0 auto;
+
+    padding: 2rem 1rem;
+
+    line-height: 1.6;
+
+  }
+
+</style>
+
+<body>
+<h1>teste</h1>
+</body>
+
+
+</html>
