@@ -54,7 +54,7 @@ console.log (resultado)
 
 alert("RESUMO DO CHAMADO \n" 
 +
- "Paciente: " + nomeSolicitante + "\n"
+ "Solicitante: " + nomeSolicitante + "\n"
 +
  "Problema: " + descricaoProblema + "\n"
 +
