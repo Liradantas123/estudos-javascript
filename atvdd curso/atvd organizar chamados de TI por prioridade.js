@@ -50,7 +50,7 @@ resultado = "medio";
 resultado = "baixo";
 }
 
-console.log(nomeSolicitante)
+console.log (nomeSolicitante)
 console.log (descricaoProblema)
 console.log (impacto)
 console.log (urgencia)
@@ -69,4 +69,4 @@ alert("RESUMO DO CHAMADO \n"
 "Prioridade Final: " + resultado);
 
 let resposta = prompt("deseja coontinuar? sim ou não?")
-if (resposta === "não") {continuar = !true}
+if (resposta === "não") {continuar = !true} }
