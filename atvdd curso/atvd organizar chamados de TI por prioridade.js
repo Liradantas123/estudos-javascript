@@ -18,6 +18,7 @@ else if (impacto === "médio") {
 impacto = 2;}
 else if (impacto === "baixo") {
 impacto = 1;}
+console.log(impacto)
 
 if (urgencia === "alto") {
 urgencia = 3;}
@@ -27,6 +28,7 @@ else if (urgencia === "médio") {
 urgencia = 2;}
 else if (urgencia === "baixo") {
 urgencia = 1;}
+console.log(urgencia)
 
 
 let resultado;
@@ -44,7 +46,26 @@ resultado = "medio";
 resultado = "baixo";
 }
 
+console.log(nomeSolicitante)
+console.log (descricaoProblema)
+console.log (impacto)
+console.log (urgencia)
+console.log (resultado)
+
+alert("RESUMO DO CHAMADO \n" 
++
+ "Paciente: " + nomeSolicitante + "\n"
++
+ "Problema: " + descricaoProblema + "\n"
++
+ "Impacto: " + impacto + "\n" 
++
+ "Urgência: " + urgencia + "\n" 
++ 
+"Prioridade Final: " + resultado);
+
+
+
+
 FALTA:
 A Estrutura de Repetição (Loop)
-A Exibição do Resultado (Saída)
-A Entrada Dinâmica dos Dados (fazendo)
