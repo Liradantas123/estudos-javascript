@@ -1,3 +1,7 @@
+let continuar = true;
+
+while (continuar){
+
 let nomeSolicitante = prompt("insira o nome do solicitante");
 console.log(nomeSolicitante)
 
@@ -64,8 +68,5 @@ alert("RESUMO DO CHAMADO \n"
 + 
 "Prioridade Final: " + resultado);
 
-
-
-
-FALTA:
-A Estrutura de Repetição (Loop)
+let resposta = prompt("deseja coontinuar? sim ou não?")
+if (resposta === "não") {continuar = !true}
