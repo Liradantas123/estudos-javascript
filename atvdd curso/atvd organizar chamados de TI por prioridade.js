@@ -22,3 +22,7 @@ resultado = "medio";
 resultado = "baixo";
 }
 
+FALTA:
+A Estrutura de Repetição (Loop)
+A Exibição do Resultado (Saída)
+A Entrada Dinâmica dos Dados (sem dados prontos com console.log e prompt)
