@@ -38,16 +38,16 @@ console.log(urgencia)
 let resultado;
 
 if (impacto === 3 && urgencia === 3) {
-resultado = "critico";
+resultado = "critica";
 
 } else if (impacto === 3 || urgencia === 3) {
-resultado = "alto";
+resultado = "alta";
 
 } else if (impacto === 2 || urgencia === 2) {
-resultado = "medio";
+resultado = "media";
 
 } else {
-resultado = "baixo";
+resultado = "baixa";
 }
 
 console.log (nomeSolicitante)
@@ -66,7 +66,12 @@ alert("RESUMO DO CHAMADO \n"
 +
  "Urgência: " + urgencia + "\n" 
 + 
-"Prioridade Final: " + resultado);
+"Prioridade Final: Prioridade " + resultado);
 
-let resposta = prompt("deseja coontinuar? sim ou não?")
-if (resposta === "não") {continuar = !true} }
+let resposta = prompt("deseja continuar? sim ou não?")
+if (resposta === "não") {continuar = !true} 
+if (resposta === "nao") {continuar = !true}
+if (resposta === null) {continuar = !true;}
+}
+
+console.log("Sistema de chamados encerrado!");
