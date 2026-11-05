@@ -1,6 +1,9 @@
-var n1 = parseFloat(window.prompt("Primeira nota:"));
-var n2 = parseFloat(window.prompt("Segunda nota:"));
-var n3 = parseFloat(window.prompt("Terceira nota:"));
+﻿var n1 = prompt("Primeira nota:");
+n1 = Number
+var n2 = prompt("Segunda nota:");
+n2 = Number
+var n3 = prompt("Terceira nota:");
+n3 = Number
 var media = (n1+n2+n3)/3;
 if(media >= 7){
 alert("Aprovado");
