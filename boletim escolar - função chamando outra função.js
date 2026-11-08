@@ -2,8 +2,11 @@
 
 //function passouDeAno()
 
-// primeiro bimestre 
+
 alert ("boletim escolar");
+const nomeAluno = prompt ("registre o nome do aluno")
+
+// primeiro bimestre 
 alert ("registre suas notas primeiro bimestre");
 const portugues1 = prompt("insira sua nota de portugues");
 portugues1 = Number(portugues1);
@@ -15,6 +18,7 @@ const geografia1 = prompt("insira sua nota degeografia");
 geografia1 = Number(geografia1);
 const ciencias1 = prompt("insira sua nota de ciencias");
 ciencias1 = Number(ciencias1);
+
 console.log("por 1bim " + portugues1);
 console.log("mat 1bim " + matematica1);
 console.log("his 1bim " + historia1);
@@ -42,6 +46,7 @@ const geografia2 = prompt("insira sua nota degeografia");
 geografia2 = Number(geografia2);
 const ciencias2 = prompt("insira sua nota de ciencias");
 ciencias2 = Number(ciencias2);
+
 console.log("por 2bim " + portugues2);
 console.log("mat 2bim " + matematica2);
 console.log("his 2bim " + historia2);
@@ -69,6 +74,7 @@ const geografia3 = prompt("insira sua nota degeografia");
 geografia3 = Number(geografia3);
 const ciencias3 = prompt("insira sua nota de ciencias");
 ciencias3 = Number(ciencias3);
+
 console.log("por 3bim " + portugues3);
 console.log("mat 3bim " + matematica3);
 console.log("his 3bim " + historia3);
@@ -95,6 +101,7 @@ const geografia4 = prompt("insira sua nota degeografia");
 geografia4 = Number(geografia4);
 const ciencias4 = prompt("insira sua nota de ciencias");
 ciencias4 = Number(ciencias4);
+
 console.log("por 4bim " + portugues4);
 console.log("mat 4bim " + matematica4);
 console.log("his 4bim " + historia4);
@@ -109,8 +116,23 @@ alert("cie 4bim " + ciencias4);
 
 alert ("terminou quarto bimestre");
 
+let media = 7 //atribuir o resulutado futuramente pela função
+media = Number(media)
 
-//prompt 
-//console.log
-//alert
+let passouSimNao = true
+let mensagemAlunoPassou = " parabéns você passou de ano!"
+let mensagemAlunoReprovado = " estude mais, você reprovou!"
+
+if (media >= 7)
+{passouSimNao = true
+console.log (nomeAluno + mensagemAlunoPassou)
+alert (nomeAluno + mensagemAlunoPassou);
+} 
+else 
+{
+console.log (nomeAluno + mensagemAlunoReprovado)
+alert (nomeAluno + mensagemAlunoReprovado);}
+
+
+
 
